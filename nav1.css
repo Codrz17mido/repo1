@@ -1,0 +1,81 @@
+.bg {
+  background-color: rgb(105, 105, 105);
+}
+p-1 {
+  padding: 3%;
+}* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.containerfluid {
+  width: 100%;
+}
+.img-fluid {
+  width: 100%;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+w-100 {
+  width: 100%;
+}
+w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+.h-100 {
+  height: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.text-justify {
+  text-align: justify;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.diraction-rtl {
+  direction: rtl;
+}
+.diraction-ltr {
+  direction: ltr;
+}
+/* main colors */
+
+.main-color {
+  color: gray;
+}
+.bg{
+  background-color: rgb(105, 105, 105);
+}
+.p-1 {
+  padding: 3%;
+}
+.Semua{
+
+    color: #2405F2;
+
+}

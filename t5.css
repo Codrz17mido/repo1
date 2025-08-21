@@ -1,0 +1,28 @@
+.hero {
+  width: 1301px;
+  height: 691px;
+  background: url("/file.html/n1/Start\ Convert.png") no-repeat center center/cover;
+  position: relative;
+  margin: 6% auto;
+  padding: 0 ;   /* مهم عشان نقدر نثبت الفورم فوق الصورة */
+}
+
+.form {
+    background: #1C1E53;
+  position: absolute;   /* يخلي الفورم يطفو فوق الخلفية */
+  padding: 95px;
+   margin: 4% auto;
+  border-radius: 7px;
+  width: 435;
+height: 545;
+top: 35px;
+left: 768px;
+color: rgb(255, 255, 255);
+
+}
+p{
+
+padding: 2%;
+
+
+}
