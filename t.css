@@ -1,0 +1,69 @@
+/* تنسيقات أساسية عشان الصفحة تظهر بشكل كويس */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* ده أهم جزء:
+1. `position: relative`: عشان نخلي العناصر اللي جواه (الكلام) تتحرك بناءً عليه.
+2. `overflow: hidden`: عشان الكلام ما يظهرش بره حدود الكارت لما يكون مخفي.
+*/
+.profileCard {
+    position: relative;
+    width: 250px;
+    height: auto;
+    overflow: hidden; 
+}
+
+/* تنسيق الصورة عشان تاخد حجم الكارت كله */
+.profileImage img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* تنسيق الكلام اللي هيظهر:
+1. `position: absolute`: عشان يتحرك بحرية جوه الكارت الأساسي.
+2. `bottom: -100%`: عشان نخبيه تحت الكارت.
+3. `transition`: ده اللي بيخلي حركة الظهور سلسة وناعمة.
+*/
+.profileInfo {
+    position: absolute; 
+    bottom: -100%; 
+    left: 0;
+    width: 100%;
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px;
+    transition: bottom 0.5s ease-in-out; 
+}
+
+/*
+ده التأثير اللي بيحصل لما تحرك الماوس على الكارت كله.
+بمجرد ما الماوس ييجي على `profileCard`،
+الكلام اللي واخد كلاس `profileInfo` هيطلع لفوق عشان قيمة `bottom` تبقى صفر
+*/
+.profileCard:hover .profileInfo {
+bottom: 15%;
+}
+
+/* تنسيق بسيط للعناوين والفقرات عشان الشكل يبقى أفضل */
+.profileInfo h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.profileInfo p {
+  font-size: 14px;
+  line-height: 1.5;
+}
