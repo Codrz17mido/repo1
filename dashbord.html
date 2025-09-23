@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="dash_board.css">
+</head>
+
+<body>
+    <section>
+        <nav class=" bg-white shadow-sm sticky-top ">
+            <div class="navbar d-flex justify-content-between container">
+                <img src="imgi_1_logo-D7ILE4zi.svg" alt="" class="logo">
+                <ul class="d-flex gap-3 align-items-center list-unstyled m-0 p-2">
+                    <li><a href="#" class="text-black text-decoration-none text-primary">Home</a>
+                        <i class="bi bi-chevron-down  p-1"></i>
+                    </li>
+                    <li><a href="#" class="text-black text-decoration-none">Doctors</a><i
+                            class="bi bi-chevron-down  p-1"></i></li>
+                    <li><a href="#" class="text-black text-decoration-none">Patients</a><i
+                            class="bi bi-chevron-down p-1 "></i></li>
+                    <li><a href="#" class="text-black text-decoration-none">pharmacy</a><i
+                            class="bi bi-chevron-down  p-1"></i></li>
+                    <li><a href="#" class="text-black text-decoration-none">pages</a><i
+                            class="bi bi-chevron-down p-1"></i>
+                    </li>
+                    <li><a href="#" class="text-black text-decoration-none">Blog</a><i
+                            class="bi bi-chevron-down  p-1"></i>
+                    </li>
+                    <li><a href="#" class="text-black text-decoration-none">Admin</a><i
+                            class="bi bi-chevron-down  p-1"></i>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-1 align-items-center">
+
+                    <a href="#"><i class="bi bi-search text-black px-3"></i></a>
+                    <div class="d-flex gap-1 align-items-center me-2">
+
+                        <a href="#"><i class="bi bi-brightness-low text-success px-1 bg-gray rounded-pill  "></i></a>
+                    </div>
+                    <i class="bi bi-bell  px-2 bg-gray p-1 me-2 rounded-pill"></i>
+                    <i class="bi bi-chat-right-text  px-2 bg-gray p-1 me-2  rounded-pill"></i>
+                    <i class="bi bi-cart2  px-2 bg-gray p-1 me-2  rounded-pill"></i>
+                    <img src="/img/doctor-profile-img.jpg" alt="" class="rounded-circle" width="40px" height="40px">
+
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="bg-big pb-5 ">
+                <div class="container">
+                    <div class="pt-4 ">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="bi bi-house-fill  text-primary"></i>
+                            <i class="bi bi-chevron-right "></i>
+                            <h4 class="text-gray">Doctor</h4>
+                            <i class="bi bi-chevron-right "></i>
+                            <h4 class="text-gray">Dashboard</h4>
+                        </div>
+                        <div class=" justify-content-center align-items-center text-center">
+                            <h2 class="fw-bold">Doctor Grid</h2>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 d-flex ">
+            <div class="card" style="width: 18rem ; height: 70rem">
+                <img src="/img/Gemini_Generated_Image_c5q8wkc5q8wkc5q8.png" class="card-img-top" height="100px"
+                    alt="...">
+                <div class="card-body text-center">
+                    <div class="position-absolute mb-5 justify-content-center align-items-center">
+                        <img src="/img/doctor-profile-img.jpg" style="width: 80px; height: 80px; top:5%;"
+                            class=" rounded-circle border border-white align-items-center justify-content-between" alt="Profile">
+                    </div>
+
+                    <h5 class="card-title mt-5">Dr Edalin Hendry</h5>
+                    <p class="card-text">BDS, MDS - Oral & Maxillofacial Surgery</p>
+                    <p class=" justify-content-center align-items-center border border-gray rounded-pill "><i
+                            class="bi bi-dot text-primary "></i>Dintist</p>
+
+                </div>
+                <div class="px-4">
+                    <h5>Availability <span class="text-danger">*</span></h5>
+                    <div class="input-group mb-3">
+
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>I am Available Now
+                            </option>
+                            <option value="1">No Available</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="m-0 p-0" id="btns">
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"> <i
+                                    class="bi bi-border-all pe-1"></i> Dashboard</button> </div>
+                        <div class=" rounded-pill mt-2 mb-1"> <button class="btn btn-primary w-100"><i
+                                    class="bi bi-calendar2-check-fill pe-1"></i> Requests</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"> <button class="btn btn-primary w-100"><i
+                                    class="bi bi-calendar2-week-fill pe-1"></i>Appointments</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-calendar2-minus-fill pe-1"></i> Available</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-person-fill pe-1"></i> My Patients</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-stopwatch pe-1"></i> Specialities & Services</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-star-fill pe-1"></i> Reviews</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-person-fill pe-1"></i> Accounts</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-journal pe-1"></i> Invoices</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-aspect-ratio-fill pe-1"></i> Payout settings</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-chat-dots-fill pe-1"></i>Messages</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-gear-fill pe-1"></i> profile settings</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-octagon-half pe-1"></i> Soical Media</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-key-fill pe-1"></i> cahnge password</button></div>
+                        <div class=" rounded-pill mt-2 mb-1"><button class="btn btn-primary w-100"><i
+                                    class="bi bi-box-arrow-left"></i> Dashboard</button></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-9 ms-4">
+                <div class="row m-0 p-0" id="content">
+                    <!-- ********************** page1 ****************************** -->
+                    <div>
+                        <div class="d-flex">
+                            <div class="me-4 ">
+                                <div class="card mb-3 mt-2" style="width: 300px;">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <h5 class="card-title">Total Patients</h5>
+                                            <h5 class="card-text">978</h5>
+                                            <p class="text-success"><i class="bi bi-arrow-up"></i>15% From Last week</p>
+                                        </div>
+                                        <div class="position-absolute top-0 bg-gray m-3  p-3 mt-4 end-0">
+                                            <img src=".." alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 mt-1" style="width: 300px;;">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <h5 class="card-title"> Patient today</h5>
+                                            <h5 class="card-text">80</h5>
+                                            <p class="text-danger"><i class="bi bi-arrow-down"></i></i>15% From Last
+                                                week
+                                            </p>
+                                        </div>
+                                        <div class="position-absolute top-0 bg-gray m-3 p-3 mt-4 end-0">
+                                            <img src="imgi_42_price-icon1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 mt-1" style="width: 300px;;">
+                                    <div class="card-body d-flex">
+                                        <div>
+                                            <h5 class="card-title">Total Patients</h5>
+                                            <h5 class="card-text">978</h5>
+                                            <p class="text-success"><i class="bi bi-calendar3 "></i></i>15% From Last
+                                                week
+                                            </p>
+                                        </div>
+                                        <div class="position-absolute top-0 bg-gray m-3 p-3 mt-4 end-0">
+                                            <img src="imgi_44_price-icon3.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="w-100">
+                                <div class="card  ">
+                                    <div class="card-header d-flex justify-content-between">
+
+                                        <h5>Appointment</h5>
+                                        <h6 class="border p-2 text-gray">last 7 days <i
+                                                class="bi bi-chevron-down ps-2"></i></h6>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class=" d-flex  ">
+                                                <img src="/img/profile-01-DT2Z6e8O.jpg" width="60px" height="60px"
+                                                    alt="">
+                                                <div class=" ms-2">
+                                                    <p class="text-primary mb-0">#Apt0001</p>
+                                                    <h6 class="">Adrian Marshall</h6>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <p class="mb-1 "> p11 Nov 2025 10.45 AM</p>
+                                                <small
+                                                    class="text-white bg-primary px-2 w-50 text-center rounded-2">Generl</small>
+                                            </div>
+                                            <div class="">
+                                                <i class="bi bi-check-circle-fill text-success  "
+                                                    style="width: 30px ; height: 30px"></i>
+                                                <i class="bi bi-x-circle-fill text-danger"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <div class=" d-flex  ">
+                                                <img src="/img/profile-02-CfwraHe7.jpg" width="60px" height="60px"
+                                                    alt="">
+                                                <div class=" ms-2">
+                                                    <p class="text-primary mb-0">#Apt0002</p>
+                                                    <h6 class="">Kelly Stevens</h6>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <p class="mb-1 "> 10 Nov 2025 11.00 AM</p>
+                                                <small
+                                                    class="text-white bg-primary px-2 w-50 text-center rounded-2">Clinic
+                                                    Consulting</small>
+                                            </div>
+                                            <div class="">
+                                                <i class="bi bi-check-circle-fill text-success  "
+                                                    style="width: 30px ; height: 30px"></i>
+                                                <i class="bi bi-x-circle-fill text-danger"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <div class=" d-flex  ">
+                                                <img src="/img/profile-03-ComJhJvI.jpg" width="60px" height="60px"
+                                                    alt="">
+                                                <div class=" ms-2">
+                                                    <p class="text-primary mb-0">#Apt0003</p>
+                                                    <h6 class="">Samuel Anderson</h6>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <p class="mb-1 "> 03 Nov 2025 02.00 PM</p>
+                                                <small
+                                                    class="text-white bg-primary px-2 w-50 text-center rounded-2">Generl</small>
+                                            </div>
+                                            <div class="">
+                                                <i class="bi bi-check-circle-fill text-success  "
+                                                    style="width: 30px ; height: 30px"></i>
+                                                <i class="bi bi-x-circle-fill text-danger"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <div class=" d-flex  ">
+                                                <img src="/img/profile-04-CEtoD4p6.jpg" width="60px" height="60px"
+                                                    alt="">
+                                                <div class=" ms-2">
+                                                    <p class="text-primary mb-0">#Apt0004</p>
+                                                    <h6 class="">Catherine Griffin</h6>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <p class="mb-1 "> 01 Nov 2025 04.00 PM</p>
+                                                <small
+                                                    class="text-white bg-primary px-2 w-50 text-center rounded-2">Clinic
+                                                    Consulting</small>
+                                            </div>
+                                            <div class="">
+                                                <i class="bi bi-check-circle-fill text-success  "
+                                                    style="width: 30px ; height: 30px"></i>
+                                                <i class="bi bi-x-circle-fill text-danger"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <div class=" d-flex  ">
+                                                <img src="/img/profile-05-C4xc7dns.jpg" width="60px" height="60px"
+                                                    alt="">
+                                                <div class=" ms-2">
+                                                    <p class="text-primary mb-0">#Apt0005</p>
+                                                    <h6 class="">Robert Hutchinson</h6>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <p class="mb-1 "> 28 Oct 2025 05.30 PM</p>
+                                                <small
+                                                    class="text-white bg-primary px-2 w-50 text-center rounded-2">Generl</small>
+                                            </div>
+                                            <div class="">
+                                                <i class="bi bi-check-circle-fill text-success  "
+                                                    style="width: 30px ; height: 30px"></i>
+                                                <i class="bi bi-x-circle-fill text-danger"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="d-flex w-100">
+                                    <div class="card mb-3 mt-3 h-50">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h6>Weekly Overview</h6>
+                                                <h6>Mar 14 - Mar 21</h6>
+                                            </div>
+                                            <img src="download.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+
+                                        <div class="card bg-primary    mb-3 mt-3 ms-4  " style="width: 35rem;">
+                                            <div class="card-body">
+                                                <h5 class=" text-white mb-4">Upcoming Appointment</h5>
+                                                <div>
+                                                    <div class=" d-flex  justify-content-between ">
+                                                        <div class=" d-flex  ">
+
+                                                            <img src="/img/profile-01-DT2Z6e8O.jpg" class="rounded-2"
+                                                                width="60px" height="60px" alt="">
+                                                            <div class=" ms-2 mt-2">
+                                                                <p class="text-white mb-0 ">#Apt0005</p>
+                                                                <h6 class=" text-white">Robert Hutchinson</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+
+                                                            <p class="mb-1 text-white "> General visit</p>
+                                                            <p class="mb-0 text-white ">Today, 10:45 AM</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-top  d-flex justify-content-between">
+                                                        <p class="text-white mt-3"><i
+                                                                class="bi bi-camera-video-fill pe-2"></i>Video
+                                                            Appointmen</p>
+                                                        <div class=" mt-3">
+                                                            <button
+                                                                class="me-1 btn bg-white rounded-pill  bx-3 by-2">Chat
+                                                                Now</button>
+                                                            <button class="me-1 btn bg-white rounded-pill  bx-3 by-2">
+                                                                start Appointment</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="card mt-3  mb-3 ms-4">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+
+                                                <h4 class="">Recent Invoices</h4>
+                                                <a class="text-primary" href="#"> View All</a>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <div class=" d-flex p-2  ">
+                                                    <img src="/img/profile-01-DT2Z6e8O.jpg" class="rounded-2"
+                                                        width="60px" height="60px" alt="">
+                                                    <div class=" ms-2">
+                                                        <h6 class=" mb-0WS ">Adrian</h6>
+                                                        <p class="text-primary mb-0">#Apt0001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Amount</p>
+                                                    <p> $450</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Paid On</p>
+                                                    <p>11 Nov 2025</p>
+                                                </div>
+                                                <div class=" bg-gray px-3 py-2 rounded-circle me-2 mb-2">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <div class=" d-flex p-2  ">
+                                                    <img src="/img/profile-02-CfwraHe7.jpg" class="rounded-2"
+                                                        width="60px" height="60px" alt="">
+                                                    <div class=" ms-2">
+                                                        <h6 class=" mb-0WS ">Adrian</h6>
+                                                        <p class="text-primary mb-0">#Apt0001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Amount</p>
+                                                    <p> $450</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Paid On</p>
+                                                    <p>11 Nov 2025</p>
+                                                </div>
+                                                <div class=" bg-gray px-3 py-2 rounded-circle me-2 mb-2">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <div class=" d-flex p-2  ">
+                                                    <img src="/img/profile-03-ComJhJvI.jpg" class="rounded-2"
+                                                        width="60px" height="60px" alt="">
+                                                    <div class=" ms-2">
+                                                        <h6 class=" mb-0WS ">Adrian</h6>
+                                                        <p class="text-primary mb-0">#Apt0001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Amount</p>
+                                                    <p> $450</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Paid On</p>
+                                                    <p>11 Nov 2025</p>
+                                                </div>
+                                                <div class=" bg-gray px-3 py-2 rounded-circle me-2 mb-2">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <div class=" d-flex p-2  ">
+                                                    <img src="/img/profile-04-CEtoD4p6.jpg" class="rounded-2"
+                                                        width="60px" height="60px" alt="">
+                                                    <div class=" ms-2">
+                                                        <h6 class=" mb-0WS ">Adrian</h6>
+                                                        <p class="text-primary mb-0">#Apt0001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Amount</p>
+                                                    <p> $450</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Paid On</p>
+                                                    <p>11 Nov 2025</p>
+                                                </div>
+                                                <div class=" bg-gray px-3 py-2 rounded-circle me-2 mb-2">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                                <div class=" d-flex p-2  ">
+                                                    <img src="/img/profile-05-C4xc7dns.jpg" class="rounded-2"
+                                                        width="60px" height="60px" alt="">
+                                                    <div class=" ms-2">
+                                                        <h6 class=" mb-0WS ">Adrian</h6>
+                                                        <p class="text-primary mb-0">#Apt0001</p>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Amount</p>
+                                                    <p> $450</p>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 ">Paid On</p>
+                                                    <p>11 Nov 2025</p>
+                                                </div>
+                                                <div class=" bg-gray px-3 py-2 rounded-circle me-2 mb-2">
+                                                    <i class="bi bi-eye-fill"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                                <div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ********************** page 2 ****************************** -->
+
+                    <div class="d-none">
+                        <div class=" justify-content-between align-items-center mt-3  w-100">
+                            <div class=" d-flex p-2 border-bottom justify-content-between ">
+                                <h3>Requests</h3>
+                                <h6 class="border p-2 text-gray">last 7 days <i class="bi bi-chevron-down ps-2"></i>
+                                </h6>
+
+
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-01-DT2Z6e8O.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0001</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Adrian</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-05-C4xc7dns.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0002</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Kelly</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-02-CfwraHe7.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <!-- <img src="/" alt=""> -->
+                                    <img src="/img/profile-03-ComJhJvI.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0004</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Andereya</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-04-CEtoD4p6.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0005</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Adrian</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mt-3 p-3 rounded-3 ">
+                                <button class="border bg-white rounded-3 py-2 px-3"> Lord More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ******** page3 ********** -->
+                    <div class=" d-none">
+                        <div class="p-3">
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-01-DT2Z6e8O.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-02-CfwraHe7.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-03-ComJhJvI.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-04-CEtoD4p6.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-05-C4xc7dns.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                
+                    <!-- ******** page4 ********** -->
+                    <div class="d-none">
+                        <div class="p-3 ">
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-01-DT2Z6e8O.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-02-CfwraHe7.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-03-ComJhJvI.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-04-CEtoD4p6.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3 p-3 rounded-3 shadow-sm">
+
+                                <div class=" d-flex p-2  ">
+                                    <img src="/img/profile-05-C4xc7dns.jpg" class="rounded-2" width="60px" height="60px"
+                                        alt="">
+                                    <div class=" ms-2">
+                                        <p class="text-primary mb-0">#Apt0003</p>
+                                        <div class="d-flex align-items-center">
+
+                                            <h6 class=" mb-0WS ">Samuel</h6><small
+                                                class="text-white bg-purple rounded-3 ms-2 px-2">new</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 "><i class="bi bi-stopwatch-fill"></i>11 Nov 2025 10.45 AM</p>
+                                    <h6>Consultation for Dental</h6>
+                                </div>
+                                <div class="">
+                                    <p class="mb-0 ">Type of Appointment</p>
+                                    <p> <i class="bi bi-camera-video-fill pe-2 text-primary"></i>Video Call</p>
+                                </div>
+                                <div class=" d-flex px-3 py-2  me-2 mb-2">
+                                    <p class="mb-0 fw-bold text-success border-right pe-2"><i
+                                            class="bi bi-check-lg"></i> Accepted</p>
+                                    <div class=" vr"> </div>
+                                    <p class="mb-0 fw-bold text-danger ps-2"><i class="bi bi-x-lg"></i>Rejected</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            </div>
+
+
+
+        </section>
+       
+        </div>
+        </div>
+
+
+
+    </section>
+    <section class="navbar bg-big py-5">
+        <section class="container py-5 my-5">
+
+            <div class="d-flex justify-content-between align-items-start gap-4 flex-wrap">
+
+                <!-- Company -->
+                <div>
+                    <ul class="py-2 gap-2">
+                        <li class="list-unstyled h5">Company</li>
+                        <li class="list-unstyled text-muted py-2">About</li>
+                        <li class="list-unstyled text-muted py-2">Features</li>
+                        <li class="list-unstyled text-muted py-2">Works</li>
+                        <li class="list-unstyled text-muted py-2">Careers</li>
+                        <li class="list-unstyled text-muted py-2">Locations</li>
+                    </ul>
+                </div>
+
+                <!-- Treatments -->
+                <div>
+                    <ul class="py-2 gap-2">
+                        <li class="list-unstyled h5">Treatments</li>
+                        <li class="list-unstyled text-muted py-2">Dental</li>
+                        <li class="list-unstyled text-muted py-2">Cardiac</li>
+                        <li class="list-unstyled text-muted py-2">Spinal Cord</li>
+                        <li class="list-unstyled text-muted py-2">Hair Growth</li>
+                        <li class="list-unstyled text-muted py-2">Anemia & Disorder</li>
+                    </ul>
+                </div>
+
+                <!-- Specialities -->
+                <div>
+                    <ul class="py-2 gap-3">
+                        <li class="list-unstyled h5">Specialities</li>
+                        <li class="list-unstyled text-muted py-2">Transplant</li>
+                        <li class="list-unstyled text-muted py-2">Cardiologist</li>
+                        <li class="list-unstyled text-muted py-2">Oncology</li>
+                        <li class="list-unstyled text-muted py-2">Pediatrics</li>
+                        <li class="list-unstyled text-muted py-2">Gynacology</li>
+                    </ul>
+                </div>
+
+                <!-- Utilities -->
+                <div>
+                    <ul class="py-2 g-2">
+                        <li class="list-unstyled h5">Utilities</li>
+                        <li class="list-unstyled text-muted py-2">Pricing</li>
+                        <li class="list-unstyled text-muted py-2">Contact</li>
+                        <li class="list-unstyled text-muted py-2">Request A Quote</li>
+                        <li class="list-unstyled text-muted py-2">Premium Membership</li>
+                        <li class="list-unstyled text-muted py-2">Integrations</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <ul class="py-2 g-2">
+                        <li class="list-unstyled h5">Newsletter</li>
+                        <li class="list-unstyled py-2 text-muted">Subscribe & Stay Updated from the Doccure</li>
+                        <li class="list-unstyled py-2">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control position-relative rounded-end py-2"
+                                    placeholder="Enter your email" aria-label="Recipient’s username"
+                                    aria-describedby="button-addon2">
+                                <button
+                                    class="gradient-bg border-0 holographic-card rounded-pill  position-absolute mt-2 me-2 end-0 text-white"
+                                    type="button" id="button-addon2">
+                                    <i class="bi bi-send text-white"></i> Send
+                                </button>
+                            </div>
+                        </li>
+                        <li class="list-unstyled py-2 h6 fw-bold">Connect With Us</li>
+                        <ul class="list-unstyled d-flex gap-3 mt-3">
+                            <li class="rounded-circle py-2"><i class="bi bi-facebook fs-4 icon-rotate"></i></li>
+                            <li class="rounded-circle py-2"><i class="bi bi-twitter fs-4 icon-rotate"></i></li>
+                            <li class="rounded-circle py-2"><i class="bi bi-instagram fs-4 icon-rotate"></i></li>
+                            <li class="rounded-circle py-2"><i class="bi bi-linkedin fs-4 icon-rotate"></i></li>
+                            <li class="rounded-circle py-2"><i class="bi bi-pinterest fs-4 icon-rotate"></i></li>
+                        </ul>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="d-flex justify-content-between align-items-center py-4 border-top mt-4 flex-wrap w-100">
+                <div class="text-muted">Copyright © 2025 Doccure. All Rights Reserved</div>
+                <ul class="d-flex gap-4  mb-0">
+                    <li><a href="#" class="text-muted text-decoration-none list-unstyled">Legal Notice</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="#" class="text-muted text-decoration-none">Refund Policy</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <img src="/img/card-01.svg" alt="">
+                    <img src="/img/card-02.svg" alt="">
+                    <img src="/img/card-03.svg" alt="">
+                    <img src="/img/card-04.svg" alt="">
+                    <img src="/img/card-05.svg" alt="">
+                    <img src="/img/card-06.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="custoum.js"></script>
+</body>
+
+</html>

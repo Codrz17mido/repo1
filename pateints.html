@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="patients.css">
+  <title>Doctors</title>
+</head>
+
+<body>
+  <section class="container">
+    <nav class="d-flex justify-content-between align-items-center py-3">
+      <!-- اللوجو والاسم -->
+      <div class="d-flex align-items-center">
+        <img src="/img/logo.svg" alt="" style="height:40px;">
+      </div>
+
+      <!-- القايمة -->
+      <ul class="d-flex list-unstyled mb-0 text-black">
+        <li class="ms-3"><a href="" class="btn text-primary ">Home</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">DOCTORS</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">Patients</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">Pharmacy</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">pages</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">Blog</a></li>
+        <li class="ms-3"><a href="" class="text-black btn">Admin</a></li>
+
+      </ul>
+      <div>
+        <ul class="d-flex list-unstyled mb-0 text">
+          <div class="d-flex justify-content-between gap-3 navbar navbar-expand-lg header-nav ">
+            <li><i class="bi bi-search"></i></li>
+            <li><i class="bi bi-brightness-high bg-whaite textg icon-circle"></i></li>
+          </div>
+          <li class="ms-3 text ">
+            <button class="btn btn-primary gradient-bg br rounded-pill border-0 holographic-card"><i class="bi bi-lock"></i>
+              Sign-Up</button>
+          </li>
+          <li class="ms-3 text ">
+            <button class=" btn btn-dark br rounded-pill"><i class="bi bi-person-check"></i>
+              Register</button>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </nav>
+  </section>
+
+
+
+  <section class="bg-big">
+    <div class="container">
+      <!-- breadcrumbs -->
+      <div class="d-flex justify-content-center align-items-center gap-2">
+        <i class="bi bi-house-fill text-primary"></i>
+        <i class="bi bi-chevron-right text-muted"></i>
+        <p class="text-muted m-0">Doctor</p>
+        <i class="bi bi-chevron-right text-muted"></i>
+        <p class="text-black m-0">Doctor Grid</p>
+      </div>
+
+      <!-- heading -->
+      <div class="text-center my-3">
+        <h2 class="text-black">Doctor Grid</h2>
+      </div>
+
+      <!-- search form -->
+      <form class="input-group w-75 mx-auto position-relative mb-5" style="bottom: -28px;">
+        <input type="text" placeholder="Search Doctors, clinics, hospitals, etc."
+          class="form-control p-3 rounded-start">
+        <input type="text" placeholder="Location" class="form-control w-25">
+        <input type="date" class="form-control w-25 rounded-end">
+        <button type="submit"
+          class=" gradient-bg holographic-card btn btn-primary position-absolute end-0 top-50 translate-middle-y border-0 rounded-pill m-2">
+          <i class="bi bi-search text-white"></i> Search
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section class="py-2 my-3">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_21_doctor-grid-01.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3"></i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Psychologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Michael Brown</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Minneapolis, MN <i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$650</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_22_doctor-grid-02.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Pediatrician</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Nicholas Tello</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Ogden, IA <i class="bi bi-dot text-primary "></i>60
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$400</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_23_doctor-grid-03.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Neurologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Harold Bryant</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Winona, MS<i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$500</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_24_doctor-grid-04.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Cardiologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Sandra Jones</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Beckley, WV <i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$550</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_25_doctor-grid-05.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Neurologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Charles Scott</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Hamshire, TX <i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$600</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_26_doctor-grid-06.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Cardiologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Robert Thomas</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Oakland, CA<i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$450</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_27_doctor-grid-07.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Psychologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Margaret Koller</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Killeen, TX <i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$450</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_28_doctor-grid-08.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Pediatrician</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Cath Busick</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Schenectady, NY<i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$750</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_29_doctor-grid-09.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Psychologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Travis Barton</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Metairie, LA<i class="bi bi-dot text-primary "></i>60
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$480</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_30_doctor-grid-10.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Gastroenterology</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black ">Dr. Daisy Malcolm</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Lexington, KY<i class="bi bi-dot text-primary "></i>60
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$520</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_31_doctor-grid-11.jpg" class="card-img-top card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Cardiologist</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Tyrone Patrick</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Clark Fork, ID <i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$360</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card me-4 mb-4" style="width: 25rem;">
+          <img src="/img/imgi_32_doctor-grid-12.jpg"  class="card-hover-img" alt="...">
+          <div class="card-body  position-absolute top-0 start-0">
+            <i class="bi bi-star-fill text-white bg-danger rounded px-2 py-1 mb-3">4.5 </i>
+          </div>
+          <div class="card-body  position-absolute top-0 end-0">
+            <i class="bi bi-chat-heart-fill text-white rounded px-2 py-1 mb-3">
+
+            </i>
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <!-- <div class="vr text-blue"></div> -->
+              <div class=" text-primary size border-0 bg-transparent card-title">
+                <a href="#" class="text-decoration-none">
+                  <p>Pediatrician</p>
+                </a>
+              </div>
+              <div class="d-flex align-items-center size-2">
+                <p class="text-success rounded-pill bg-light-green px-2  "><i class="bi bi-dot "></i>Available</p>
+              </div>
+            </div>
+            <a class="text-decoration-none" href="#">
+              <h5 class="fw-bold text-black  ">Dr. Ann Bell</h5>
+            </a>
+            <p><i class="bi bi-geo-alt px-1"></i>Minneapolis, MN<i class="bi bi-dot text-primary "></i>30
+              Min </p>
+            <hr>
+            <div class="d-flex justify-content-between text-gray align-items-center p-0 ">
+              <div>
+                <p>Consultation Fees</p>
+                <h5 class="fw-bold text-danger">$630</h5>
+              </div>
+              <div>
+                <button class="px-2 py-1  rounded-pill border text-white btn  btn-dark "><i
+                    class="bi bi-aspect-ratio p-1 pe-1"></i>Book Now</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="d-flex justify-content-center align-items-center my-4">
+
+      <button class="gradient-bg btn btn-primary rounded-pill border-0 holographic-card"><i class="bi bi-box pe-1"></i>Load More 425
+        Doctors</button>
+    </section>
+    <section class="navbar bg-big py-5">
+  <section class="container py-5 my-5">
+
+    <div class="d-flex justify-content-between align-items-start gap-4 flex-wrap">
+
+      <!-- Company -->
+      <div>
+        <ul class="py-2 gap-2">
+          <li class="list-unstyled h5">Company</li>
+          <li class="list-unstyled text-muted py-2">About</li>
+          <li class="list-unstyled text-muted py-2">Features</li>
+          <li class="list-unstyled text-muted py-2">Works</li>
+          <li class="list-unstyled text-muted py-2">Careers</li>
+          <li class="list-unstyled text-muted py-2">Locations</li>
+        </ul>
+      </div>
+
+      <!-- Treatments -->
+      <div>
+        <ul class="py-2 gap-2">
+          <li class="list-unstyled h5">Treatments</li>
+          <li class="list-unstyled text-muted py-2">Dental</li>
+          <li class="list-unstyled text-muted py-2">Cardiac</li>
+          <li class="list-unstyled text-muted py-2">Spinal Cord</li>
+          <li class="list-unstyled text-muted py-2">Hair Growth</li>
+          <li class="list-unstyled text-muted py-2">Anemia & Disorder</li>
+        </ul>
+      </div>
+
+      <!-- Specialities -->
+      <div>
+        <ul class="py-2 gap-3">
+          <li class="list-unstyled h5">Specialities</li>
+          <li class="list-unstyled text-muted py-2">Transplant</li>
+          <li class="list-unstyled text-muted py-2">Cardiologist</li>
+          <li class="list-unstyled text-muted py-2">Oncology</li>
+          <li class="list-unstyled text-muted py-2">Pediatrics</li>
+          <li class="list-unstyled text-muted py-2">Gynacology</li>
+        </ul>
+      </div>
+
+      <!-- Utilities -->
+      <div>
+        <ul class="py-2 g-2">
+          <li class="list-unstyled h5">Utilities</li>
+          <li class="list-unstyled text-muted py-2">Pricing</li>
+          <li class="list-unstyled text-muted py-2">Contact</li>
+          <li class="list-unstyled text-muted py-2">Request A Quote</li>
+          <li class="list-unstyled text-muted py-2">Premium Membership</li>
+          <li class="list-unstyled text-muted py-2">Integrations</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div>
+        <ul class="py-2 g-2">
+          <li class="list-unstyled h5">Newsletter</li>
+          <li class="list-unstyled py-2 text-muted">Subscribe & Stay Updated from the Doccure</li>
+          <li class="list-unstyled py-2">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control position-relative rounded-end py-2" placeholder="Enter your email"
+                aria-label="Recipient’s username" aria-describedby="button-addon2">
+              <button class="gradient-bg border-0 holographic-card rounded-pill  position-absolute mt-2 me-2 end-0 text-white"
+                type="button" id="button-addon2">
+                <i class="bi bi-send text-white"></i> Send
+              </button>
+            </div>
+          </li>
+          <li class="list-unstyled py-2 h6 fw-bold">Connect With Us</li>
+          <ul class="list-unstyled d-flex gap-3 mt-3">
+            <li class="rounded-circle py-2"><i class="bi bi-facebook fs-4 icon-rotate"></i></li>
+            <li class="rounded-circle py-2"><i class="bi bi-twitter fs-4 icon-rotate"></i></li>
+            <li class="rounded-circle py-2"><i class="bi bi-instagram fs-4 icon-rotate"></i></li>
+            <li class="rounded-circle py-2"><i class="bi bi-linkedin fs-4 icon-rotate"></i></li>
+            <li class="rounded-circle py-2"><i class="bi bi-pinterest fs-4 icon-rotate"></i></li>
+          </ul>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="d-flex justify-content-between align-items-center py-4 border-top mt-4 flex-wrap w-100">
+      <div class="text-muted">Copyright © 2025 Doccure. All Rights Reserved</div>
+      <ul class="d-flex gap-4  mb-0">
+        <li><a href="#" class="text-muted text-decoration-none list-unstyled">Legal Notice</a></li>
+        <li><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+        <li><a href="#" class="text-muted text-decoration-none">Refund Policy</a></li>
+      </ul>
+      <div class="d-flex gap-2">
+        <img src="/img/card-01.svg" alt="">
+        <img src="/img/card-02.svg" alt="">
+        <img src="/img/card-03.svg" alt="">
+        <img src="/img/card-04.svg" alt="">
+        <img src="/img/card-05.svg" alt="">
+        <img src="/img/card-06.svg" alt="">
+      </div>
+    </div>
+
+  </section>
+</section>
+
+
+  </section>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

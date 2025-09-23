@@ -1,0 +1,201 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #0d6efd;
+  --muted:#b9b4b4;
+  --green: #198754;
+  --bg-big: #e7f0fb;
+  --gray: #6c757d;
+}
+.textg{
+    color: var(--green);
+}
+.bg-muted{
+    background-color: var(--muted);
+}
+.bg-whaite{
+    background-color: var(--white);
+}
+.bg-big{
+    background-color: var(--bg-big);
+}
+.bg-gray{
+  background-color: var(--gray);
+}
+.icon-circle {
+  width: 22px;        /* حجم الدائرة */
+  height: 22px;
+  border-radius: 50%; /* يخليها دائرة */
+  border: 1px solid #ddd; /* لون الإطار */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* خلفية بيضاء */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1); /* ظل خفيف */
+}
+/* .icon-circle img {
+  width: 15px;  /* حجم الأيقونة */
+
+.bg-img{
+    background-image: url("img/pg.jpg");
+   /* background-color: #968f8f; */
+   
+    background-size: cover;
+    background-position: center;
+    height: 300px;  
+    max-width: 100%;
+    
+}
+.icon1{
+  font-size: 20px;
+   color: #0d6efd;
+}
+.gradient-bg {
+    background: 
+    linear-gradient(to right, #0d6efd,#8fc9d6);
+}
+.Navbar{
+    background-color: var(--gray);
+}
+.icon-rotate {
+  display: inline-block;
+  transition: transform 0.6s linear; /* مدة ونعومة الحركة */
+}
+
+.icon-rotate:hover {
+  transform: rotatey(360deg); /* لفة كاملة */
+}
+.holographic-card:hover {
+
+    box-shadow: 0 0 20px rgba(149, 156, 156, 0);
+}
+
+.holographic-card:hover::before {
+    opacity: 1;
+    transform: rotate(-90deg) translateY(120%);
+}.holographic-card {
+
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.holographic-card h2 {
+    color: rgba(217, 232, 232, 0.138);
+    font-size: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.holographic-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(0deg,
+            transparent,
+            transparent 30%,
+            rgba(231, 224, 224, 0.599));
+    transform: rotate(-90deg);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.holographic-card:hover {
+
+    box-shadow: 0 0 20px rgba(149, 156, 156, 0);
+}
+
+.holographic-card:hover::before {
+    opacity: 1;
+    transform: rotate(-90deg) translateY(120%);
+}
+.card-hover-img {
+  transition: transform 0.5s ease; /* حركة ناعمة */
+}
+
+.card:hover .card-hover-img {
+  transform: scale(1.1) translateY(-10px); /* تكبير + طلوع لفوق */
+}
+.wh1{
+    width: 2rem;
+    height: 2rem;
+}
+
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", sans-serif;
+    }
+    .sidebar {
+      background: #1e3a8a;
+      color: #fff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .sidebar h5 {
+      font-weight: bold;
+    }
+    .sidebar a {
+      color: #dbeafe;
+      text-decoration: none;
+      display: block;
+      padding: 8px 0;
+      transition: 0.3s;
+    }
+    .sidebar a:hover {
+      color: #fff;
+      font-weight: 500;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+    .patient-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .sidebar {
+  background: #fff; /* خلفية بيضاء */
+  border-right: 1px solid #ddd; /* خط فاصل بسيط */
+  min-height: 100vh;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* مسافة بين العناصر */
+}
+
+.nav-item {
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wh2{
+     
+    top: 5%;
+    left: 35%;
+}
+
+.nav-item.active {
+  background: #0d6efd; /* أزرق بوتستراب */
+  color: #fff;
+}
+.nav-item:hover {
+  background: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+}
