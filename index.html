@@ -1,171 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Sherif | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-
 <body>
-    <section class="container">
-        <nav>
-            <div class="d-flex justify-between p-1 logo">
-                <div class="d-flex">
-                    <img src="WhatsApp Image 2025-09-02 at 23.55.11_8045c427.jpg" alt="" width="50px" height="50px">
-                    <h1 class="d-flex">Furniro</h1>
-                </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="profile-pic">
+<img src="img/mo.jpg" alt="Profile">
+      </div>
+      <h1>Mohamed Sherif</h1>
+      <p>Data Engineering & Artificial Intelligence Specialist | Turning Data into Intelligent Solutions</p>
+      <button onclick="scrollToSection('about')">Explore My Work</button>
+    </div>
+  </section>
 
-                <div class="d-flex">
-                    <ul class="d-flex align-center text-black">
-                        <li class="d-flex p-1 text-black">Home</li>
-                        <li class="d-flex p-1 text-black">Product</li>
-                        <li class="d-flex p-1 text-black">About</li>
-                        <li class="d-flex p-1 text-black">Contact</li>
-                    </ul>
-                </div>
-                <div class="d-flex p-1">
-                    <img src="/WhatsApp Image 2025-09-02 at 23.55.13_b63ba7f7.jpg" alt="" class="p-1">
-                    <img src="/WhatsApp Image 2025-09-02 at 23.55.11_460782c6.jpg" alt="" class="p-1">
-                    <img src="/WhatsApp Image 2025-09-02 at 23.55.11_639f6b88.jpg" alt="" class="p-1">
-                    <img src="/WhatsApp Image 2025-09-02 at 23.55.12_5646eab2.jpg" alt="" class="p-1">
-                </div>
-        </nav>
-        <div>
-            <img src="WhatsApp Image 2025-09-02 at 23.55.13_48bf1733.jpg" alt="" class="p-1" width="100%" height="300px">
+  <!-- About Me -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Ever since I started working with data, I’ve been fascinated by the idea that behind every raw number lies a story waiting to be discovered. What began as curiosity turned into a professional journey where I specialize in turning messy, unstructured data into clear, valuable insights that drive decisions.</p>
+    <p>My work as a Data Engineer revolves around building reliable data pipelines, cleaning and transforming datasets, and modeling them in ways that make analysis smooth and meaningful. I enjoy creating dashboards and visualizations that allow businesses to see the bigger picture at a glance.</p>
+    <p>From data cleaning and integration, to designing scalable data models and crafting compelling visualizations — I help businesses transform raw information into strategic assets. If you’re looking for someone who doesn’t just process data, but truly tells its story, then I’d love to collaborate and bring clarity to your data challenges.</p>
+    <div class="skills-boxes">
+      <div class="box">
+        <h3>Data Pipelines & ETL</h3>
+        <p>Building scalable pipelines with Airflow, Spark, and DBT.</p>
+      </div>
+      <div class="box">
+        <h3>AI & Machine Learning</h3>
+        <p>Developing predictive and NLP models to solve real problems.</p>
+      </div>
+      <div class="box">
+        <h3>Cloud & Big Data</h3>
+        <p>Designing solutions on AWS, Azure, and GCP with Spark and Kafka.</p>
+      </div>
+    </div>
+  </section>
 
-        </div>
-        <div class="d-flex justify-between big-div">
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, SQL, Java</li>
+      <li>Data Engineering (ETL, Data Pipelines, Big Data)</li>
+      <li>Cloud Platforms (AWS, Azure, GCP)</li>
+      <li>Machine Learning & Deep Learning</li>
+      <li>Apache Spark, Hadoop, Kafka</li>
+      <li>Data Visualization (Tableau, PowerBI)</li>
+    </ul>
+  </section>
 
-            <div class="d-flex" >
- 
-                <div class="div-left">
-                    <h1 style="text-align: left; padding: 2rem;">Billing details</h1>
+  <!-- Projects -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Real-time Data Pipeline</h3>
+        <p>Built a streaming data pipeline using Apache Kafka and Spark for real-time analytics.</p>
+      </div>
+      <div class="project">
+        <h3>AI Fraud Detection System</h3>
+        <p>Developed an ML model to detect fraudulent transactions with 95% accuracy.</p>
+      </div>
+      <div class="project">
+        <h3>Cloud Data Lakehouse</h3>
+        <p>Designed a scalable data lakehouse on AWS for enterprise-level analytics.</p>
+      </div>
+      <div class="project">
+        <h3>AI-Powered Recommendation System</h3>
+        <p>Created a recommendation engine using Deep Learning techniques.</p>
+      </div>
+    </div>
+  </section>
 
-                    <div class="d-flex ">
-
-                        <div class="p-1">
-
-                            <p>first name</p>
-
-                            <input type="text" class="input-field-small">
-                        </div>
-
-                        <div class="p-1">
-                            <p>last name</p>
-
-                            <input type="text" class="input-field-small">
-                        </div>
-
-                    </div>
-                    <div class="p-1" style="flex-direction: column; float: left;">
-                        <p>Company Name (Optional)</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Country / Region</p>
-                        <input type="text" class="input-field">
-
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Street address</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Town / City</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Province</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>ZIP code</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Phone</p>
-                        <input type="text" class="input-field">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <p>Email address</p>
-                        <input type="text" class="input-field p-bottom">
-                    </div>
-                    <div class="p-1" style="flex-direction: column;">
-                        <input type="text" placeholder="Additional information" class="input-field ">
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="d-flex div-right justify-between">
-                <div class="d-flex justify-between flex-column">
-                    <div class="border-bottom">
-                        <div class="d-flex justify-between p-1">
-                            <h1 class="p-right">Product</h1>
-                         
-                            <h1>Subtotal</h1>
-                        </div>
-
-                        <div class="d-flex justify-between p-1">
-                            <p ><span style="color: #9F9F9F;">Asgaard sofa</span> x 1</p>
-                            <h5>Rs. 250,000.00</h5>
-                        </div>
-                        <div class="d-flex justify-between p-1">
-                            <h4>Subtotal</h4>
-                            <h5>Rs. 250,000.00</h5>
-                        </div>
-
-                        <div class="d-flex justify-between p-1">
-                            <h3>Total</h3>
-                            <h3 style="color: #B88E2F;"> Rs. 250,000.00 </h3>
-                        </div>
-
-                    </div>
-
-
-                    <div class="text-align p-1">
-                        <p>
-                            <img src="WhatsApp Image 2025-09-02 at 23.55.13_4c7fbd8d.jpg" alt="">
-                            Direct Bank Transfer
-                        </p>
-
-                        <p class="p-bottom" style="color: #9F9F9F;">
-                            Make your payment directly into our bank account. Please use
-                            <br> your Order ID as the payment reference.Your order will not be
-                            <br> shipped until the funds have cleared in our account.
-                        </p>
-                        
-                        <p style="color: #9F9F9F;">
-                            <img src="WhatsApp Image 2025-09-02 at 23.55.12_3ba3cb47.jpg" alt="">
-                            Direct Bank Transfer
-                        </p>
-
-
-                        <p class="p-bottom" style="color: #9F9F9F;">
-                            <img src="WhatsApp Image 2025-09-02 at 23.55.12_3ba3cb47.jpg" alt="">
-                            Cash On Delivery
-                        </p>
-                       
-                        <p>Your personal data will be used to support your experience
-                            <br> throughout this website, to manage access to your account, and
-                            <br> for other purposes described in our <b>privacy policy</b>.
-                        </p>
-                        <div class="d-flex justify-center p-1 text-align-center">
-                            <button >Place Order</button>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
-    </section>
-
-</body>
-
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p class="subtitle">Let's work together</p>
+    <div class="contact-buttons">
+      <a class="btn" href="mailto:mohamedsherif1432005@gmail.com">📧 Email</a>
+      <a class="btn" href="https://wa.me/201022133876" target="_blank">📱 WhatsApp</a>
+      <a class="btn" href="https://www.linkedin.com/in/mohamed-sherif-597550343/" target="_blank">💼 LinkedIn</a>
+      <a class="btn" href="https://github.com/Codrz17mido" target="_blank">🐙 GitHub</a>
+    </div>
+  </section>
+  </body>
 </html>
