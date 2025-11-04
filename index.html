@@ -4,138 +4,436 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Hut</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>cafe</title>
 </head>
 
 <body>
-    <section class="container">
-        <nav class="d-flex justify-content-between align-items-center py-3">
-            <!-- اللوجو والاسم -->
-            <div class="d-flex align-items-center">
-                <img src="/imgs/Logo-Pizza-Hut 2.png" alt="" style="height:40px;">
-                <h5 class="ms-2 mb-0">Pizza Hut</h5>
+
+    <section class="p-3 d-flex justify-content-center align-items-center text-center img-bg" style="height: 100vh; ">
+        <div class="text-white">
+            <div>
+                <button class="bg-white-light border-0 text-white rounded-2 ps-2 pe-2 "> <i class="bi bi-star-fill"></i>
+                    4.8 Rating • Premium Experience</button>
+            </div>
+            <h1 class="text-white display-1 fw-bold">Cafe Pushkin</h1>
+            <p class="text-gray fs-4">
+                Experience the elegance of 18th-century Russia in the heart of <br>Moscow. Exquisite cuisine,
+                artisanal coffee, and timeless <br> atmosphere.
+            </p>
+            <div class="d-flex align-items-center justify-content-center gap-3 mt-4">
+                <p><i class="bi bi-geo-alt"></i>Tverskoy Boulevard, Central Moscow</p>
+                <p class="gap-3"><i class="bi bi-clock"></i>Open Daily 8:00 - 23:00</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <button class="btn btn-light"> <i class="bi bi-cup-hot"></i>Reserve a Table</button>
+                <button class="btn btn-outline-light">View Menu</button>
+
             </div>
 
-            <!-- القايمة -->
-            <ul class="d-flex list-unstyled mb-0 text">
-                <li class="ms-3 text"><a href="" class="text ">Home</a> </li>
-                <li class="ms-3 text"><a href="" class="text">about us</a></li>
-                <li class="ms-3 text"><a href="" class="text">shope</a></li>
-                <li class="ms-3 text"><a href="" class="text">blog</a></li>
-                <li class="ms-3 text"><a href="" class="text">pages</a></li>
-                <li class="ms-3 text"><a href="" class="text">Contact</a></li>
+        </div>
+    </section>
+
+    <section class="container mb-5 mt-5">
+        <div class="d-flex gap-5">
+            <div class="col-md-6">
+                <button class="btn btn-light border">Est.1999</button>
+                <h1 class="text-large"> A Timeless Moscow <br> Institution</h1>
+                <p>Nestled in the heart of Moscow's historic Tverskoy district, Café Pushkin has <br> been a beacon of
+                    Russian hospitality and culinary excellence for over two <br> decades. Our 18th-century inspired
+                    interior, combined with contemporary <br> culinary techniques, creates an unforgettable dining
+                    experience.</p>
+                <p>From our signature Russian breakfast to our internationally acclaimed <br> dinner menu, every dish
+                    tells a story of tradition, innovation, and the <br> timeless spirit of Moscow.</p>
+                <div class="gap-3 d-flex">
+                    <div class="bg-muted mb-3 mt-3 pt-3 ps-3 pe-3 rounded-4">
+                        <i class="bi bi-cup-hot"></i>
+                        <h5>Artisanal Coffee</h5>
+                        <p>Expertly roasted beans from the finest coffee regions</p>
+                    </div>
+                    <div class="bg-muted mb-3 mt-3 pt-3 ps-3 pe-3 rounded-4">
+                        <i class="bi bi-people-fill"></i>
+                        <h5>Historic Atmosphere</h5>
+                        <p>18th-century elegance meets modern comfort</p>
+                    </div>
+                </div>
+                <div class="gap-3 d-flex">
+                    <div class="bg-muted mb-3 mt-3 pt-3 ps-3 pe-3 rounded-4">
+                        <i class="bi bi-award"></i>
+                        <h5>Award Winning</h5>
+                        <p>Recognized as Moscow's finest dining experience</p>
+                    </div>
+                    <div class="bg-muted mb-3 mt-3 pt-3 ps-3 pe-3 rounded-4">
+                        <i class="bi bi-heart"></i>
+                        <h5>Made with Love</h5>
+                        <p>Every dish crafted with passion and tradition</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column gap-3 col-md-6 mt-5 pt-5 pb-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="/img/photo-1559925393-8be0ec4767c8.jpg" class="img-fluid rounded-4" alt="">
+                    </div>
+                    <div class="col-6 mt-3">
+                        <img src="/img/photo-1509042239860-f550ce710b93.jpeg" class="img-fluid rounded-4 h-75 w-70 mt-4"
+                            alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="/img/photo-1445116572660-236099ec97a0.jpeg" class="img-fluid rounded-4 h-75 w-70 mt-4"
+                            alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="/img/photo-1442975631115-c4f7b05b8a2c.jpeg" class="img-fluid rounded-4" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-muted">
+        <div class="container text-center align-items-center justify-content-center  p-5">
+            <button class="btn btn-white bg-big border-2 fs-6 text-small">Premium Amenities</button>
+
+            <h1 class=" mt-3">Everything You Need for the Perfect Experience</h1>
+            <p class="fs-5 mb-4 text-white-light">
+                From artisanal coffee to fine dining, we've thoughtfully designed every aspect of your <br> visit to
+                exceed your expectations.
+            </p>
+        </div>
+        <div class="d-flex justify-content-between align-items-stretch  ps-5 pe-5 mb-4 box-shadow">
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-wifi logo"></i>
+                <h4 class="mt-3">Free Wi-Fi</h4>
+                <p class="mt-3">High-speed internet<br>throughout the cafe</p>
+            </div>
+
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-projector logo"></i>
+                <h4 class="mt-3">Valet Parking</h4>
+                <p class="mt-3">Available for presentations and events</p>
+            </div>
+
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-music-note-beamed logo"></i>
+                <h4 class="mt-3">Live Piano</h4>
+                <p class="mt-3">Enjoy performances from local artists</p>
+            </div>
+
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-cup-hot logo"></i>
+                <h4 class="mt-3">Specialty Coffee</h4>
+                <p class="mt-3">Single-origin beans roasted in-house daily</p>
+            </div>
+
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-egg-fried logo"></i>
+
+                <h4 class="mt-3">Fine Dining</h4>
+                <p class="mt-3">Russian & international cuisine</p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center gap-3 ps-5 pe-5 mb-4 box-shadow">
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-credit-card logo"></i>
+                <h4 class="mt-3">Secure Payments</h4>
+                <p class="mt-3">Multiple payment options available</p>
+            </div>
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-people logo"></i>
+                <h4 class="mt-3">Friendly Staff</h4>
+                <p class="mt-3">Dedicated to exceptional service</p>
+            </div>
+
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-clock logo"></i>
+                <h4 class="mt-3">Extended Hours</h4>
+                <p class="mt-3">Open from 8 AM to 11 PM daily</p>
+            </div>
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-tablet logo"></i>
+                <h4 class="mt-3">Digital Menus</h4>
+                <p class="mt-3">Easy online and phone reservations</p>
+            </div>
+            <div class="col-md-2 card amenity-card text-center pt-3 pb-3 rounded-4">
+                <i class="bi bi-gift logo"></i>
+                <h4 class="mt-3">Gift Cards</h4>
+                <p class="mt-3">Perfect for any gifts for food lovers</p>
+            </div>
+        </div>
+    </section>
+    <Section class="mb-5">
+        <div class="container text-center align-items-center justify-content-center  p-5">
+            <button class="text-dark btn btn-outline-light border-2 rounded-2 ">Culinary Excellence</button>
+
+            <h1 class=" mt-3">Menu Highlights</h1>
+            <p class="fs-5 mb-4 text-white-light">
+                Discover our carefully curated selection of traditional Russian dishes and international <br> favorites,
+                all prepared with the finest ingredients.
+            </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-between ps-5 pe-5 mb-5 box-shadow m-5">
+            <div class="card rounded-4" style="width: 23rem;height: 45rem;">
+                <img src="/img/photo-1551218808-94e220e084d2.jpg" class="card-img-top  passion-relative" alt="...">
+                <span
+                    class="position-absolute top-0 end-0 bg-dark text-white px-1 py-1 me-2 ms-2 ps-2 pe-2 rounded-4 mt-2 font-size-3 text-small">
+                    <i class="bi bi-clock me-1"></i> 8:00 - 12:00
+                </span>
+                <div class="card-body">
+                    <h5 class="card-text">Breakfast & Brunch</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Russian Blini Stack</p>
+                        <p>₽850</p>
+                    </div>
+                    <p class="text-gray">Traditional blini with caviar, sour cream, and fresh herbs</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Russian Blini Stack</p>
+                        <p>₽850</p>
+                    </div>
+                    <p class="text-gray">Traditional blini with caviar, sour cream, and fresh herbs</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Russian Blini Stack</p>
+                        <p>₽850</p>
+                    </div>
+                    <p class="text-gray">Traditional blini with caviar, sour cream, and fresh herbs</p>
+                </div>
+            </div>
+            <div class="card rounded-4" style="width: 23rem; height: 45rem;">
+                <img src="/img/photo-1509042239860-f550ce710b93.jpg" class="card-img-top passion-relative" alt="...">
+                <span
+                    class="position-absolute top-0 end-0 bg-dark text-white px-1 py-1 me-2 ms-2 ps-2 pe-2 rounded-4 mt-2">
+                    <i class="bi bi-clock me-1"></i> All Day
+                </span>
+                <div class="card-body">
+                    <h5 class="card-text">Signature Coffee</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Pushkin Espresso</p>
+                        <p>₽450</p>
+                    </div>
+                    <p class="text-gray">Our signature single-origin blend with notes of chocolate and caramel</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Imperial Latte</p>
+                        <p>₽550</p>
+                    </div>
+                    <p class="text-gray">Smooth espresso with steamed milk and a touch of vanilla</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Moscow Mocha</p>
+                        <p>₽650</p>
+                    </div>
+                    <p class="text-gray">Rich chocolate and coffee blend topped with whipped cream</p>
+                </div>
+            </div>
+            <div class="card rounded-4" style="width: 23rem; height: 45rem;">
+                <img src="/img/pizza.jpg (1).png" class="card-img-top" alt="...">
+                <span class="position-absolute top-0 end-0 bg-dark text-white px-1 py-1 me-2 ms-2 rounded-4 mt-2">
+                    <i class="bi bi-clock me-1"></i> 18:00 - 23:00
+                </span>
+                <div class="card-body">
+                    <h5 class="card-text">Signature pizza</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Beef Stroganoff</p>
+                        <p>₽1,850</p>
+                    </div>
+                    <p class="text-gray">Classic Russian dish with tender beef in rich cream sauce</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Siberian Salmon</p>
+                        <p>₽2,150</p>
+                    </div>
+                    <p class="text-gray">Pan-seared salmon with caviar cream and seasonal vegetables</p>
+                    <hr class="text-gray">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="fw-bold">Duck à l'Orange</p>
+                        <p>₽2,450</p>
+                    </div>
+                    <p class="text-gray">French-inspired roasted duck with orange glaze and potato gratin</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center justify-content-center align-items-center mb-5 gap-3 d-flex">
+            <button class="btn btn-dark text-white">View Full Menu</button>
+            <button class="btn btn-white  text-dark button box-shadow border-2">Juice List</button>
+        </div>
+        </div>
+
+    </Section>
+
+
+    <section class="bg-muted  p-5">
+        <div class="container text-center align-items-center justify-content-center  p-5">
+            <button class="btn btn-white bg-big border-2 fs-6 text-small">Visit Us</button>
+
+            <h1 class="mt-3">Location & Contact</h1>
+            <p class="fs-5 mb-4 text-gray">
+                Located in the heart of Moscow's Tverskoy district, we're easily accessible by metro, <br> taxi, or
+                foot. We look forward to welcoming you.
+            </p>
+        </div>
+        <div class="d-flex">
+
+            <div class="col-md-6">
+                <div class="d-flex gap-4 mb-4">
+                    <div class="card p-3 rounded-4" style="width: 16rem;">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <i class="bi bi-geo-alt  mb-0 logo1 fs-6"></i>
+                            <p class="fw-bold mb-0">Address</p>
+                        </div>
+                        <p class="mb-0">Tverskoy Boulevard, 26А</p>
+                        <p class="mb-0">Moscow, 125009</p>
+                        <p class="mb-0">Russia</p>
+                    </div>
+
+                    <div class="card p-3 rounded-4" style="width: 16rem;">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <i class="bi bi-telephone fs-6 logo1"></i>
+                            <p class="fw-bold mb-0">Phone</p>
+                        </div>
+                        <p class="mb-0">+7 495 123 45 67</p>
+                        <p class="mb-0">+7 495 765 43 21</p>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-4">
+                    <div class="card p-3 rounded-4" style="width: 16rem;">
+
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <i class="bi bi-envelope fs-6 logo1"></i>
+                            <p class="fw-bold mb-0">Email</p>
+                        </div>
+                        <p class="mb-0">contact@restaurant.ru</p>
+                        <p class="mb-0">info@restaurant.ru</p>
+                    </div>
+
+                    <div class="card p-3 rounded-4" style="width: 16rem;">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <i class="bi bi-clock fs-6 logo1"></i>
+                            <p class="fw-bold mb-0">Opening Hours</p>
+                        </div>
+                        <p class="mb-0">Mon - Fri: 08:00 - 22:00</p>
+                        <p class="mb-0">Sat - Sun: 10:00 - 00:00</p>
+                    </div>
+                </div>
+                <div class="d-flex gap-4  mt-3  align-items-center">
+                    <button type="button" class="btn btn-dark btn-lg w font-big"><i class="bi bi-calendar"></i> Make
+                        Reservations</button>
+                    <button class="btn btn-light  text-dark button box-shadow border-2 w"><i
+                            class="bi bi-send-fill"></i>
+                        Get Directions</button>
+                </div>
+                <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-light border-0 ps-2 pe-2">
+                        <i class="bi bi-instagram me-2"></i>Instagram
+                    </button>
+                    <button class="btn btn-light border-0 ps-2 pe-2">
+                        <i class="bi bi-facebook me-2"></i>Facebook
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-5 text-center rounded-4" style="background: #f6f6f8;">
+                    <i class="bi bi-geo-alt-fill fs-1 mb-3" style="color:#6b6b78;"></i>
+                    <h4 class="fw-bold">Interactive Map</h4>
+                    <p class="text-muted">Click to view our location on Google Maps</p>
+
+                    <div class="d-flex justify-content-center mt-3">
+                        <button class="btn btn-dark d-flex align-items-center gap-2 rounded-pill px-4">
+                            <i class="bi bi-send-fill"></i> Open in Maps
+                        </button>
+                    </div>
+
+                    <div class="card mt-4 p-3 rounded-4">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <strong>Café Pushkin</strong>
+                        </div>
+                        <p class="mb-0">Tverskoy Boulevard, 26A, Moscow</p>
+                    </div>
+
+                    <!-- مكان الخريطة الحقيقي -->
+                    <div class="mt-4 rounded-4 container" style="height: 0px; background: #ffffff;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="card w-85 mt-5  rounded-4 box-shadow ">
+            <h4 class="justify-content-center align-items-center d-flex py-4">Public Transportation</h4>
+            <div class="d-flex gap-5 justify-content-between align-items-center p-3 ">
+                <div class="ps-5 pe-5">
+                    <p class="text-center trafic rounded-4 mx-auto">Metro</p>
+                    <p>Pushkinskaya Station (5 min walk)</p>
+                </div>
+                <div class="ps-5 pe-5 ">
+                    <p class="text-center trafic rounded-4 mx-auto">Bus</p>
+                    <p>Routes 15, 31, 39 (Stop: Tverskoy Blvd)</p>
+                </div>
+                <div class="ps-5 pe-5">
+                    <p class="text-center trafic rounded-4 mx-auto">Taxi</p>
+                    <p>Uber, Yandex, Gett available</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="bg-kohly">
+        <div class="container d-flex justify-content-center align-items-center p-5 box-shadow text-center">
+            <div class="text-white text-center px-5">
+                <span style="color: #FFC107; font-size: 30px;">★★★★★</span>
+                <h1 class="fw-bold mt-3">Experience Moscow's Finest Café</h1>
+                <p>Join thousands of satisfied guests who have made Café Pushkin their favorite <br> destination for
+                    exceptional dining and unforgettable moments in Moscow.</p>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <button class="btn btn-light"> <i class="bi bi-cup-hot me-2"></i>Reserve your Table</button>
+                    <button class="btn btn-outline-light"> <i class="bi bi-gift me-2"></i>Gift a Friend</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="d-flex justify-content-between align-items-start p-5 box-shadow mb-5">
+            <ul class="d-flex flex-column  list-unstyled">
+                <h4><i class="bi bi-cup-hot me-2"></i> Café Pushkin</h4>
+                <li class="text-gray">Moscow's premier dining destination since 1999. Experience <br> the perfect blend
+                    of Russian tradition and international cuisine <br> in the heart of the city.</li>
+                <li class="text-gray"> <span style="color: #FFC107; font-size: 30px;">★★★★★</span> 4.8/5 on Google</li>
+            </ul>
+            <ul class="list-unstyled">
+                <h4 class="fs-5"> Quick Links</h4>
+
+                <li class="text-gray mt-2">Menu</li>
+                <li class="text-gray mt-2">Reservations</li>
+                <li class="text-gray mt-2">Private Events</li>
+                <li class="text-gray mt-2">About Us</li>
+
 
             </ul>
-            <div>
-                <ul class="d-flex list-unstyled mb-0 text">
-                    <li class="ms-3 text"> <img src="/imgs/Container.png" alt=""></li>
-                    <li class="ms-3 text "> <button class="btn btn Contactus"> Contact Us</button></li>
-                    <li class="ms-3 text"> <img src="/imgs/Container (1).png" alt=""></li>
+            <ul class="list-unstyled">
+                <h4 class="fs-5"> Contact Us</h4>
 
-                </ul>
-
-            </div>
-
-        </nav>
-
-        <div class="bg-image position-relative ">
-            <img src="/imgs/d6bac52c53de5d73a6712daff581db0da13fed0f.jpg" class="img-fluid w-100 h-50"
-                alt="Pizza Hut Banner">
-
-            <div class="position-absolute Food textw m-5 p-5">
-                <p class="p">Starting at $24.00</p>
-                <h2>The best Food <br>
-                    Collection 2024</h2>
-                <p class="p">
-                    <span>Exclusive offer</span>
-
-                    <span class="texty">-35%</span>
-                    <span> off this week</span>
-
-                </p>
-                <div>
-                    <button class="btn btn-danger"> <img src="/imgs/Icon.png" alt="">order now </button>
-                </div>
-                <div>
-                    <div class="input-group mb-3 rounded-pill mb-3 mt-4">
-                        <input type="text" class="form-control" placeholder="emaill address"
-                            aria-label="Recipient’s username" aria-describedby="button-addon2">
-                        <button class="btn btn-danger rounded-pill" type="button" id="button-addon2">Subscribe</button>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="position-absolute top-50 end-0 translate-middle-y me-5">
-                <img src="/imgs/Mask group.png" alt="" width="600px">
-            </div>
+                <li class="text-gray mt-2">Tverskoy Boulevard, 26А, Moscow</li>
+                <li class="text-gray mt-2">+7 495 123 45 67</li>
+                <li class="text-gray mt-2">+7 (495) 739-0033</li>
+                <li class="text-gray mt-2">info@cafepushkin.ru</li>
+            </ul>
         </div>
+        <hr class="text-gray">
+        <div class="d-flex justify-content-center align-items-center p-3 mb-3">
+            <p class="text-gray mb-0">© 2024 Café Pushkin made with ❤️by eng_mohamed.sherif . All rights reserved.</p>
         </div>
-
-        <div class="container mt-5">
-            <div class="row text-center g-4">
-                <div class="col-md-4">
-                    <img src="/imgs/Background (3).png" class="img-fluid rounded shadow" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="/imgs/Background (1).png" class="img-fluid rounded shadow" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img src="/imgs/Background (2).png" class="img-fluid rounded shadow" alt="">
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <div class="row align-items-center">
-                <!-- الصورة -->
-                <div class="col-md-6 text-center">
-                    <img src="/imgs/Container (2).png" class="img-fluid" alt="">
-                </div>
-
-                <!-- النص الأول -->
-                <div class="col-md-6 p-4">
-                    <p class="text-success">About our food</p>
-                    <h1>The best delicious food made from us...</h1>
-                    <p>
-                        It’s the perfect dining experience where every dish is crafted with fresh,
-                        high-quality ingredients. Experience quick and efficient service that ensures
-                        your food is served fresh and full of flavor.
-                    </p>
-                    <div class="container mt-5">
-                        <div class="row align-items-center">
-
-                            <!-- العمود الأول 25% -->
-                            <div class="col-md-3 bg-light text-center p-3">
-                                <img src="/imgs/Heading 3 → o.png" alt="">
-                                <p>Satsified Clients</p>
-                                <span class="texty">250+</span>
-                            </div>
-
-                            <!-- العمود الثاني 50% -->
-                            <div class="col-md-6 bg-secondary text-white text-center p-3">
-                                <p>عمود 50%</p>
-                            </div>
-
-                            <!-- العمود الثالث 25% -->
-                            <div class="col-md-3 bg-light text-center p-3">
-                                <p>عمود 25%</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-
     </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
